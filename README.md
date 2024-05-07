@@ -1,3 +1,5 @@
+User Manual for MossAaronFinalProject // Character Stat Tracking
+
 Upon launching the program, the user will be greeted with the main view.
 This view shows a banner at the top saying "Player Stat Tracker".
 There are also 5 buttons. (Save File, Load File, Add Player, Edit Player, Exit)

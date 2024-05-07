@@ -47,8 +47,8 @@ class Application(tk.Tk):
                         for i, player in enumerate(self.players):
                             # Write each player's data to the file
                             file.write(f"{player.name},{player.currency},{player.health},{player.experience},{player.details}")
-                            if i != num_players - 1:
-                                file.write("\n")
+                           # if i != num_players - 1:
+                              #  file.write("\n")
 
                     messagebox.showinfo("Save", f"Data saved to {file_name} successfully!")
                     new_window.destroy()
